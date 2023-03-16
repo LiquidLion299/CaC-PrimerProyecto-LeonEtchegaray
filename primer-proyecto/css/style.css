@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #222;*/
+    color: white;
+    font-size: 16px;
+    background-image: url("../img/fondo-cocina.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 3em; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em; 
+}
+
+p {
+  text-align: center;
+  
+}
+
+.imagenReceta {
+    display: block;
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+section, nav, footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 15px;
+    overflow: auto;
+    margin: 15px;
+}
+section ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2;
+    color: antiquewhite;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+nav ul li a {
+    color:rgb(201, 255, 255);
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+nav ul li a:hover {
+    color:rgb(168, 252, 252);
+}
+.caja {
+    margin: 10px;
+    width: 48%;
+    float: left;
+    padding: 20px;
+    /*background-color: blue;*/
+}
+.cajados {
+    float: left;
+    align-content: center;
+}
+
